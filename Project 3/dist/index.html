@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Landing Page</title>
+    <!-- ........CSS Stylesheet Linked........ -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ............Font-Awesome CDN............. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="w-full h-20 fixed top-0 left-0 right-0 bg-gray-100 shadow-md shadow-gray-200 px-10 flex items-center justify-between">
+            <img class="w-10 md::w-auto" src="../Bike Page Assets/logo.png" alt="logo">
+            <ul class="hidden md:flex items-center justify-center gap-x-10">
+                <li class="font-semibold hover:scale-110 transition-all cursor-pointer">PRODUCTS <i class="fa-solid fa-angle-down"></i></li>
+                <li class="font-semibold hover:scale-110 transition-all cursor-pointer">GALLERY</li>
+                <li class="font-semibold hover:scale-110 transition-all cursor-pointer">CONTACT</li>
+            </ul>
+            <div class="md:hidden">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </div>
+            <div class="hidden md:block">
+                <button class="px-5 md:px-10 py-1 font-semibold bg-white border-[1px] border-black rounded-lg text-black hover:bg-black hover:text-white transition-all">LOG IN</button>
+                <button class="px-5 md:px-10 py-1 font-semibold bg-black border-[1px] border-black rounded-lg text-white hover:bg-white hover:text-black transition-all">SIGN UP</button>
+            </div>
+        </nav>
+        <main class="mt-20 w-full flex flex-col md:flex-row items-center justify-center">
+            <div class="md:pl-10 px-5 py-10 md:w-5/12 w-full">
+                <div>
+                    <h1 class="text-5xl lg:text-6xl font-light uppercase">let's ride <span class="block tracking-wider font-semibold">the future.</span></h1>
+                    <div class="w-3/4 border-2 border-black my-10"></div>
+                    <p class="w-3/4 font-semibold text-gray-700">Simple and sleek design with users in mind.</p>
+                </div>
+                <div class="flex gap-x-12 lg:gap-x-16 items-center mt-5">
+                    <div class="flex gap-x-3 items-center">
+                        <div class="w-10 h-10 bg-gray-700 text-white flex items-center justify-center"><i class="fa-solid fa-arrow-right fa-xl"></i></div>
+                        <button class="text-xl font-bold hover:text-gray-700">Buy Now</button>
+                    </div>
+                    <div class="flex items-center">
+                        <p class="w-20 font-semibold text-gray-700">Watch our video how it works.</p>
+                        <img src="../Bike Page Assets/header play button.png" alt="play button">
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-7/12 md:pr-10 px-5 md:px-0 py-5">
+                <div class="w-full p-5">
+                    <img class="w-full" src="../Bike Page Assets/header image.png" alt="header image">
+                </div>
+            </div>
+        </main>
+        <div class="w-full flex items-center justify-center md:justify-end px-10">
+            <div class="flex items-center justify-center gap-x-5">
+                <div>
+                    <img class="w-24 md:w-full" src="../Bike Page Assets/01.png" alt="">
+                </div>
+                <div class="w-16 md:w-20 h-10 border-2 border-black rounded-2xl flex items-center justify-around">
+                    <i class="fa-solid fa-angle-left fa-2xl"></i>
+                    <i class="fa-solid fa-angle-right fa-2xl"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- .................Features Section.................. -->
+    <section class="w-full mt-3 py-5 md:p-5 bg-gray-300 flex items-center justify-evenly flex-wrap gap-y-3 md:gap-y-5 md:gap-x-20 lg:gap-x-0">
+        <div class="w-40 h-36 flex flex-col items-center justify-center bg-white hover:shadow hover:scale-105 cursor-pointer rounded-xl">
+            <h1 class="text-4xl font-bold">105 <span class="text-2xl">lbs</span></h1>
+            <p class="text-xl font-medium text-gray-800 mt-2">Net Weight</p>
+        </div>
+        <div class="w-40 h-36 flex flex-col items-center justify-center bg-white hover:shadow hover:scale-105 cursor-pointer rounded-xl">
+            <h1 class="text-4xl font-bold">26 <span class="text-2xl">mph</span></h1>
+            <p class="text-xl font-medium text-gray-800 mt-2">Top Speed</p>
+        </div>
+        <div class="w-40 h-36 flex flex-col items-center justify-center bg-white hover:shadow hover:scale-105 cursor-pointer rounded-xl">
+            <h1 class="text-4xl font-bold">38 <span class="text-2xl">miles</span></h1>
+            <p class="text-xl font-medium text-gray-800 mt-2">Max Range</p>
+        </div>
+        <div class="w-40 h-36 flex flex-col items-center justify-center bg-white hover:shadow hover:scale-105 cursor-pointer rounded-xl">
+            <h1 class="text-4xl font-bold">89 <span class="text-2xl">nm</span></h1>
+            <p class="text-xl font-medium text-gray-800 mt-2">Max Torque</p>
+        </div>
+        <div class="w-40 h-36 flex flex-col items-center justify-center bg-white hover:shadow hover:scale-105 cursor-pointer rounded-xl">
+            <h1 class="text-4xl font-bold">22% <span class="text-2xl">slope</span></h1>
+            <p class="text-xl font-medium text-gray-800 mt-2">Hill Climbing</p>
+        </div>
+        <div class="w-40 h-36 flex flex-col items-center justify-center bg-white hover:shadow hover:scale-105 cursor-pointer rounded-xl">
+            <h1 class="text-4xl font-bold">2x</h1>
+            <p class="text-lg font-medium text-gray-800 mt-2">Hidrolic Disk Break</p>
+        </div>
+    </section>
+    <!-- ...........Product Information section........ -->
+    <section>
+        <div class="w-full py-5 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-3">Product Information</h1>
+            <p class="md:text-lg text-gray-800 font-medium px-4">Our Scooter has unique design and technology features:</p>
+        </div>
+        <div class="flex items-center justify-center p-2 flex-col md:flex-row">
+            <div class="w-full md:w-3/6 p-5">
+                <img src="../Bike Page Assets/product information image.png" alt="">
+            </div>
+            <div class="w-full md:w-3/6 p-5 flex flex-col items-start justify-center gap-y-5">
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Lightweight aircraft grade aluminium frame</p>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Car grade lithium battery</p>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Self Balanced</p>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Plug n play</p>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Quick release adapter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ..........High Efficiency Motor Section............ -->
+    <section>
+        <div class="w-full">
+            <img class="w-full" src="../Bike Page Assets/high efficiency motor.png" alt="motor image">
+        </div>
+    </section>
+    <!-- ...............Multiple Accessories Section.................. -->
+    <section>
+        <div class="w-full py-5 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-3">Multiple Accessories</h1>
+            <p class="md:text-lg text-gray-800 font-medium px-4">There are multiple modes for the scooter for your multiple needs.</p>
+        </div>
+        <div class="flex items-center justify-center p-2 flex-col md:flex-row-reverse">
+            <div class="w-full md:w-8/12 p-5">
+                <img class="w-full" src="../Bike Page Assets/golf bag rock.png" alt="">
+            </div>
+            <div class="w-full md:w-4/12 p-5 flex flex-col items-start justify-center gap-y-5">
+                <div class="text-center">
+                    <h1 class="text-3xl font-bold">Golf Bag Rock</h1>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Material: Alluminium alloy</p>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Color: Black</p>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Capacity: 45lbs</p>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Ease: Steady & adjustable</p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5 flex items-center justify-center p-2 md: pl-0 flex-col md:flex-row">
+            <div class="w-full md:w-8/12 p-5 md:pl-0">
+                <img class="w-full" src="../Bike Page Assets/shopping rack.png" alt="">
+            </div>
+            <div class="w-full md:w-4/12 p-5 md:pl-2 flex flex-col items-start justify-center gap-y-5">
+                <div class="text-center">
+                    <h1 class="text-3xl font-bold">Shopping Bag</h1>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Material: Alluminium alloy</p>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Color: Black</p>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Capacity: 45lbs</p>
+                </div>
+                <div class="flex items-center justify-start gap-5">
+                    <img src="../Bike Page Assets/Icon.png" alt="">
+                    <p class="text-lg font-medium">Ease: Quick & adjustable</p>
+                </div>
+            </div>
+        </div>
+        <div class="py-5 text-center w-5/6 md:w-4/6 mx-auto border-2 border-black rounded-2xl">
+            <h1 class=" text-lg md:text-2xl font-bold">More Accessories Coming Soon</h1>
+        </div>
+    </section>
+</body>
+</html>
